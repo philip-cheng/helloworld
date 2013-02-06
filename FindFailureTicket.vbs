@@ -44,6 +44,7 @@ Sub FindFailureTicket_Main()
 
 	strEndTime = Time()
 	WScript.Echo "[FindFailureTicket_Main] Duration: " & DateDiff("s", strStartTime, strEndTime) & " seconds."
+
 End Sub
 
 'Function Name: GetFailureTicket
